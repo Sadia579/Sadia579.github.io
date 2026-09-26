@@ -9,3 +9,9 @@
 @media(max-width:800px){.nav{gap:15px}.nav-links{gap:15px}.nav-links a{font-size:12px}.hero{grid-template-columns:1fr .65fr;gap:15px}.hero-aside{transform:scale(.8)}.skills-layout{grid-template-columns:1fr}.skills-note{border-left:0;border-top:1px solid var(--line);padding:18px 0 0}.two-column{gap:30px}.section-subtitle{display:none}}
 @media(max-width:620px){.wrap{width:min(100% - 32px,1120px)}.nav{height:66px}.brand{font-size:16px}.menu-toggle{display:block;margin-left:auto}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;padding:18px 24px;background:#0c141a;border-bottom:1px solid var(--line);flex-direction:column;gap:16px}.nav-links.open{display:flex}.nav-social{display:none}.hero{grid-template-columns:1fr;padding-block:58px 45px}.hero h1{font-size:56px}.hero-role{font-size:14px}.hero-aside{height:210px;transform:none;margin-top:10px}.profile-monogram{width:155px;height:155px;font-size:58px}.orbit{width:230px;height:130px}.orbit-two{width:255px;height:165px}.aside-caption{right:4px;bottom:-2px}.skills-panel{padding:23px 20px;margin-bottom:70px}.section{margin-bottom:70px}.section-heading h2{font-size:30px}.project-grid,.two-column{grid-template-columns:1fr}.project-card{padding:21px}.two-column{gap:55px}.contact-band{padding:26px 23px;align-items:flex-start;flex-direction:column}.contact-links{width:100%}.footer{gap:12px;flex-wrap:wrap}.footer>span{order:3;width:100%}.form-row{grid-template-columns:1fr}.section-heading{align-items:flex-start}.add-cert-btn{white-space:nowrap;padding:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+
+/* Refined skill organization */
+.skill-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 38px;margin-top:24px}
+.skill-group h3{font-size:12px;font-weight:600;color:#a9bbc4;margin:0 0 12px}
+.skill-group .skill-list{gap:9px}
+@media(max-width:620px){.skill-groups{grid-template-columns:1fr;gap:20px}}
